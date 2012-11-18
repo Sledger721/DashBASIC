@@ -1,0 +1,18 @@
+PRINT 'Any acceptable lua string'..' that you can think of.'
+SET my_Var_Name=any_Lua_Value_Or_Function()
+REM Comment here.
+DIM my_Table_Name
+FUNCTION myFunction:argument_a,argument_b,argument_c
+INPUT var_to_set_input_too
+FOR counter=beginning_number,ending_number                  << Such as FOR i=0,#string
+UNTIL <acceptable lua condition, such as x==5 or y>6>
+WHILE <acceptable lua condition, such as x==5 or y>6>
+IF <acceptable lua condition, such as x==5 or y>6>
+ELSEIF <acceptable lua condition, such as x==5 or y>6>
+CLASS className:parentClass                                 << Parent class/colon is optional.
+CALL path/to/module OR_IT_CAN_BE CALL reference_variable path/to/module
+END << Issues a simple ending statement.
+REPEAT << Puts out a repeat statement.
+ELSE << Else statement.
+MODULE << Put this at the beginning of a file to make it a module.
+RETURN schtuff_to_return

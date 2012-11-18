@@ -1,0 +1,28 @@
+Hello World:
+	PRINT 'Hello World!'
+99 Bottles of Beer:
+	FOR i=0,100
+		PRINT 100-i..' bottles of beer on the wall.'
+	END
+Hello %NAME%:
+	PRINT 'What is your name?'
+	INPUT name
+	PRINT 'Hello '..name..'!'
+Modules:
+	MODULE
+		REM That statement above made this a loadable module.
+	CALL myModule path/to/module
+		REM That statement above just loaded the module at path/to/module to reference variables myModule.
+Classes:
+	CLASS myClass:parentClass
+		FUNCTION myClass:__init()
+			PRINT 'This is the initiation method for the myClass class. It is a special reference point for the method.'
+		END
+		FUNCTION myClass:methodName()
+			PRINT 'This is just a basic method here.'
+		END
+Functions:
+	FUNCTION addNumbers;a,b
+		SET c=a+b
+		RETURN c
+	END	

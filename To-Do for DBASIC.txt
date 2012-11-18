@@ -1,0 +1,6 @@
+Long-Run:
+-go over all Lua Libs and add them as keywords. Make sure to add the string splitting as one of them
+
+Future Ideas:
+-LOVE2D compliance
+-JSON/INI Support
